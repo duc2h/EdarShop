@@ -17,6 +17,8 @@ namespace EdarShop.Data.Infrastructure
         //marks an entity as removed
         T Delete(T entity);
 
+        T Delete(int id);
+
         void DeleteMulti(Expression<Func<T, bool>> where);
 
         T GetSingleById(int id);

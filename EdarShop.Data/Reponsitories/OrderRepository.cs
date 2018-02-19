@@ -8,7 +8,7 @@ using EdarShop.Model.Models;
 
 namespace EdarShop.Data.Reponsitories
 {
-    public interface IOrderRepository
+    public interface IOrderRepository : IRepository<Order>
     {
 
     }

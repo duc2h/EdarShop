@@ -8,7 +8,7 @@ using EdarShop.Model.Models;
 
 namespace EdarShop.Data.Reponsitories
 {
-    public interface IMenuRepository
+    public interface IMenuRepository : IRepository<Menu>
     {
 
     }
